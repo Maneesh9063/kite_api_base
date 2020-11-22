@@ -40,8 +40,8 @@ with open("stocks.txt","r") as f:
         if g[i]["name"] in l:
             # print(g[i]["name"])
 
-            # k[i] = {"name":g[i]["name"]}
-            k[g[i]['name']] = i
+            k[i] = {"name":g[i]["name"]}
+            # k[g[i]['name']] = i
     # print(k)
 
 print(len(k))
